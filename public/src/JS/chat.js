@@ -2,6 +2,7 @@ document.getElementById("output").style.display = "none";
 document.getElementById("input").style.display = "none";
 
 document.getElementById("comienzo").addEventListener("click", (e)=> {
+  comienzo.style.display = 'none';
   document.getElementById("output").style.display = "block";
   document.getElementById("input").style.display = "block";
   let y = document.getElementsByClassName("x");
